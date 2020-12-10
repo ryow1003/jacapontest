@@ -111,6 +111,18 @@ header{
 header a{
   text-decoration: none;
   color: #ffffff;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding:10px 15px;
+  background: #636363;
+  border-radius: 0 15px 15px 0;
+  transition: .5s;
+  margin-top: 20px;
+}
+header a:hover {
+  background: #f72626;
 }
 
 
@@ -119,7 +131,7 @@ header a{
 .top-wrapper{
   width:100%;
   max-width:100%;
-  background-image: url(pic/top.png);
+  background-image: url(pic/back.png);
   background-size: cover;
   text-align: center;
 }
@@ -127,12 +139,25 @@ header a{
   color:white;
   padding: 200px 0 200px;
   background-color: black;
+  font-size: 50px;
+  font-family:serif;
   opacity: 0.6;
 }
 .top-wrapper h1 span,
 footer h1 span{
   color:red;
 }
+
+
+/* SIGN */
+.sign{
+  width:100%;
+  text-align: center;
+}
+.sign p{
+  font-size: 50px;
+}
+
 
 
 /* ARTICLE */
@@ -147,6 +172,7 @@ footer h1 span{
   width:50%;
   margin:10px 0;
   padding:0;
+  display: inline-block;
   text-decoration: none;
   background-size: cover;
   background-position: center;
@@ -255,10 +281,33 @@ footer h1 span{
 
 /* FOOTER */
 footer{
-  background-color: #c9b9df;
   text-align: center;
-  height:500px;
-  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: black solid 1px;
+}
+footer a{
+  padding:10px 20px;
+  border-radius: 5%;
+  border: black solid 1px;
+  text-decoration: none;
+  color:white;
+  background-color: gray;
+  transition: 1s;
+  display: inline-block;
+}
+footer a:hover{
+  color: black;
+  background-color: white;
+}
+footer h1{
+  font-family: serif;
+  padding-top: 100px;
+}
+footer p{
+  font-size: 12px;
 }
 
 

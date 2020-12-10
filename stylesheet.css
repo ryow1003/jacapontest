@@ -139,31 +139,68 @@ footer h1 span{
 .menu{
   width:96%;
   padding:0 2%;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
 }
 .menu a{
-  width:48%;
-  margin:1%;
+  width:50%;
+  margin:10px 0;
   padding:0;
   text-decoration: none;
-  background-image: url(pic/si.png);
   background-size: cover;
   background-position: center;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  transition: 1s;
+}
+.menu a:hover{
+  transform: translateY(-10px);
+  transform: scale(1.1);
 }
 .article{
   width:100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: 400;
   text-align: center;
 }
 .article h2{
   color:white;
-  padding:20px 0 50px 0;
+  font-size: 32px;
+  padding:50px 0 50px 0;
 }
 
-
+/* pic */
+.menu a:nth-child(1){
+  background-image: url(pic/si.png);
+}
+.menu a:nth-child(2){
+  background-image: url(pic/re.png);
+}
+.menu a:nth-child(3){
+  background-image: url(pic/sh.png);
+}
+.menu a:nth-child(4){
+  background-image: url(pic/da.png);
+}
+.menu a:nth-child(5){
+  background-image: url(pic/ca.png);
+}
+.menu a:nth-child(6){
+  background-image: url(pic/we.png);
+}
+.menu a:nth-child(7){
+  background-image: url(pic/gr.png);
+}
+.menu a:nth-child(8){
+  background-image: url(pic/sn.png);
+}
+.menu a:nth-child(9){
+  background-image: url(pic/ek.png);
+}
+.menu a:nth-child(10){
+  background-image: url(pic/to.png);
+}
 
 /* BUTTON */
 

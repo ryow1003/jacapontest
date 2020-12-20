@@ -141,20 +141,31 @@ header a:hover {
   background-image: url(pic/back.png);
   background-size: cover;
   text-align: center;
+  position: relative;
+}
+.top-wrapper h2{
+  position: absolute;
+  top:280px;
+  right:0;
+  left:0;
+  color:white;
+  font-size: 16px;
+  opacity: 0.6;
+  font-family: serif;
+  letter-spacing: 5px;
 }
 .top-wrapper h1{
   color:white;
   padding: 200px 0;
-  background-color: black;
   font-size: 50px;
   font-family:serif;
   opacity: 0.6;
+  background-color: black;
 }
 .top-wrapper h1 span,
 footer h1 span{
   color:red;
 }
-
 
 /* SIGN */
 .sign{
@@ -176,14 +187,14 @@ footer h1 span{
   flex-wrap: wrap;
 }
 .menu a{
-  width:50%;
-  margin:10px 0;
+  width:45%;
+  margin:10px 2.5%;
   padding:0;
   display: inline-block;
   text-decoration: none;
   background-size: cover;
   background-position: center;
-  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  border-radius: 20px;
   transition: 1s;
 }
 .menu a:hover{
@@ -196,10 +207,11 @@ footer h1 span{
   opacity: 0.6;
   z-index: 400;
   text-align: center;
+  border-radius: 20px;
 }
 .article h2{
   color:white;
-  font-size: 32px;
+  font-size: 40px;
   padding:50px 0;
 }
 
